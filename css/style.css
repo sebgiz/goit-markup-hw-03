@@ -224,3 +224,32 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
+
+.header {
+    border-bottom: 1px solid #e7e9fc; 
+}
+
+.header-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 1158px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+
+.header-nav {
+    display: flex; 
+    align-items: center; 
+}
+
+.menu {
+    display: flex; 
+    gap: 40px; 
+}
+
+.header-address {
+    display: flex; 
+    gap: 40px; 
+}
+
