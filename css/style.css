@@ -13,7 +13,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px;
+    margin-right: 76px; 
 }
 
 .studio {
@@ -27,9 +27,9 @@ img {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	background-color: #ffffff;
-	color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #434455;
     text-decoration: none;
     font-style: normal;
 }
@@ -59,7 +59,6 @@ ul, ol {
 }
 
 .contact:hover,
-
 .contact:focus {
     color: #404bbf;
 }
@@ -73,17 +72,21 @@ ul, ol {
     font-style: normal;
 }
 
-.link:hover {color: #404bbf;}
-.link:focus {color: #404bbf;}
+.link:hover, .menu-link:hover {
+    color: #404bbf;
+}
+.link:focus, .menu-link:focus {
+    color: #404bbf;
+}
 
-
-.link:active {
+.link:active, .menu-link:active {
     text-decoration: underline;
     color: #404bbf;
 }
 
 .section-one {
     background: #2e2f42;
+    padding: 188px 0; 
 }
 
 .head {
@@ -93,6 +96,7 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px; 
 }
 
 .button-class {
@@ -104,10 +108,15 @@ ul, ol {
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+    display: block; 
+    min-width: 169px; 
+    height: 56px; 
+    border: none; 
+    background-color: var(--button-bg-color, #4d5ae5); 
+    border-radius: 4px; 
 }
     
 .button-class:hover,
-
 .button-class:focus {
     background-color: #404BBF;
 }
@@ -221,10 +230,10 @@ ul, ol {
 
 .footer-text {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 .header {
