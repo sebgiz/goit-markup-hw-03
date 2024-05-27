@@ -174,7 +174,7 @@ ul, ol {
 }
 
 .team-content { 
-    padding: 32px 16px 32px 16px; 
+    padding: 32px 16px; 
 }
 
 .team-title { 
@@ -242,5 +242,4 @@ ul, ol {
     display: flex; 
     gap: 40px; 
 }
-
 
