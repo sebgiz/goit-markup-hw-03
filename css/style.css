@@ -188,7 +188,7 @@ img {
     padding: 120px 0;
 }
 
-.teatle {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -210,11 +210,14 @@ img {
     text-align: center;
 }
 
-.team-content {
-    padding: 32px 16px 32px 16px;
+.members-text {
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
-.team-title {
+.members-name {
     text-align: center;
     margin-bottom: 8px;
     font-size: 20px;
@@ -222,7 +225,7 @@ img {
     color: #2e2f42;
 }
 
-.team-role {
+.members-profession {
     text-align: center;
     font-size: 16px;
     line-height: 24px;
