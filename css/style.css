@@ -285,7 +285,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
-    display: inline-block;
+    display: inline-block; 
 }
 
 .footer-text {
@@ -295,5 +295,5 @@ img {
     letter-spacing: 0.02em;
     font-family: inherit;
     max-width: 264px;
+    margin-bottom: 16px; 
 }
-
