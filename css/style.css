@@ -269,3 +269,33 @@ ul, ol {
     gap: 40px; 
 }
 
+
+.section-two {
+    padding: 120px 0; 
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.features-list {
+    display: flex; 
+    gap: 24px; 
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4); 
+}
+
+.feature-title {
+    margin-bottom: 8px; 
+}
+
